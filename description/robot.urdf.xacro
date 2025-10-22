@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="slam_bot">
+    <link name="base_link">
+    
+    </link>
+    
+    <link name="chassis_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.075"/>
+            <geometry>
+                <box size="0.3 0.3 0.15"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="base_chasis_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="chassis_link"/>
+    </joint>
+</robot>

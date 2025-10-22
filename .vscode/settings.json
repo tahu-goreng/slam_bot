@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/linux/ros2_ws/build/slam_bot",
+        "/home/linux/ros2_ws/install/slam_bot/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/linux/ros2_ws/build/slam_bot",
+        "/home/linux/ros2_ws/install/slam_bot/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
